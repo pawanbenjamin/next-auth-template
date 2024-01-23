@@ -47,6 +47,15 @@ export default function NavMenu() {
             Protected Route
           </li>
         </Link>
+        <Link href="/serverAction">
+          <li
+            className={
+              pathname === "/serverAction" ? ACTIVE_ROUTE : INACTIVE_ROUTE
+            }
+          >
+            Server Action
+          </li>
+        </Link>
       </ul>
     </div>
   );
